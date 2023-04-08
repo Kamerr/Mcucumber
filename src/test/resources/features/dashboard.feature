@@ -1,5 +1,5 @@
 Feature: Dashboard Tab Names
-
+  @wip
   Scenario:
     Given The user is on the login page
     When The user type in valid credentials:"kamer@gmail.com"and "123456789Ka"

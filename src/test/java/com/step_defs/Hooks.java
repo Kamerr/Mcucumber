@@ -14,7 +14,7 @@ public class Hooks {
     @Before
     public void setUp(){
        // Driver.get().manage().window().getPosition(new Point(-1000,0));
-        Driver.get().manage().window().maximize();
+       // Driver.get().manage().window().maximize();
         Driver.get().manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
         System.out.println("This is coming from before method");
     }
